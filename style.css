@@ -1,0 +1,35 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5; /*define o espaçamento entre linhas de texto*/
+  font-weight: 400; /*grossura(peso) da fonte*/
+  text-align: center; /*centraliza o texto da página*/
+
+  color-scheme: light dark;
+  color: #ffffffde;
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#campoImput {
+  width: 10rem;
+  height: 1.4rem;
+  border-radius: 0.3em;
+  border: solid 0.1em;
+  ;
+}
+
+#buscar{
+  padding: 5px;
+  border-radius: 0.3em;
+}
+
+#buscar:hover { /*defininçõ ação de mudança temporário no elemento*/
+  background-color: #ffffffde; /*o fundo mudará para essa cor*/
+  color: #242424; /*a fonte mudará para essa cor*/
+  font-weight: bold; /*a fonte ficará mais grossa*/
+  transition: 0.3s; /*as ações demoração esses segundos para ocorrerem*/
+}

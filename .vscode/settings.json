@@ -1,0 +1,45 @@
+{
+    // editor
+    "editor.wordWrap": "on",
+    "editor.fontSize": 12,
+    "editor.lineHeight": 21,
+    "editor.tabSize": 2,
+    "editor.fontWeight": 450,
+    "editor.fontFamily": "Fira Code",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "files.autoSave": "afterDelay",
+    //editando cor de fundo do tema omni
+    "workbench.colorCustomizations": {
+      "editor.background": "#0f0f0f"
+  },
+  
+  
+    // explorer
+    "explorer.compactFolders": false,
+  
+    // workbench
+    "workbench.editor.enablePreview": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Omni",
+  
+    // prettier
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.enable": true,
+    "prettier.singleQuote": false,
+    "prettier.tabWidth": 2,
+    "prettier.semi": false,
+  
+    // terminal
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.profiles.windows": {
+      "Git Bash": {
+        "source": "Git Bash"
+      }
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash"
+  }
+  
