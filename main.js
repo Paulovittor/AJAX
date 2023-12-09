@@ -23,12 +23,10 @@ function buscarCEP() {
 }
 
 //ADCIONANDO UM OUVINTE DE EVENTO PARA O CAMPO DE IMPUT
-
-let inputBox = document.getElementById("campoImput"); //pegando qualquer valor do campo
+let inputBox = document.getElementById("campoImput");
 inputBox.addEventListener("keyup", function (event) {
   if (event.key === "Enter") {
     buscarCEP();
   }
-})
-
+});
 
